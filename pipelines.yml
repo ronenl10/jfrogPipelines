@@ -34,7 +34,7 @@ pipelines:
           dockerImageName: docker.artifactory-cluster.soleng-us.jfrog.team/ronenl_pipeline
           dockerImageTag: ${run_number}
           inputResources:
-            - name: repo_1_docker_build_push
+            - name: ronenl_repo_1_docker_build_push
           integrations:
             - name: ArtifactoryHA
 
